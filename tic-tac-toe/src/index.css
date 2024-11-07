@@ -6,6 +6,8 @@
     border-style: ridge;
     border-color: rgb(69, 171, 174);
     float: left;
+    font-size: 30px;
+    font-weight: bold;
 }
 .board-row{
     display: table;
