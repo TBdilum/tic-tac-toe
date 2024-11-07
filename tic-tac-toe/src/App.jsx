@@ -1,23 +1,25 @@
-import Board from "./Button.jsx";
+import Square from './Button.jsx'
 
-export default function App (){
-    return(
-    <>
-        <div>
-        <Board value={1}/>
-        <Board value={1}/>
-        <Board value={1}/>
+export default function Board() {
+    
+    return (
+      <>
+        <div className="board-row">
+          <Square />
+          <Square />
+          <Square />
         </div>
-        <div>
-        <Board value={1}/>
-        <Board value={1}/>
-        <Board value={1}/>
+        <div className="board-row">
+          <Square />
+          <Square />
+          <Square />
         </div>
-        <div>
-        <Board value={1}/>
-        <Board value={1}/>
-        <Board value={1}/>
+        <div className="board-row">
+          <Square />
+          <Square />
+          <Square />
         </div>
-        </>
-
-    )}
+      </>
+    );
+  }
+  

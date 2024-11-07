@@ -2,11 +2,11 @@
     width: 50px;
     height: 50px;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     border-style: ridge;
-    justify-content: right;
     border-color: rgb(69, 171, 174);
-
-    
+    float: left;
 }
-
+.board-row{
+    display: table;
+}
